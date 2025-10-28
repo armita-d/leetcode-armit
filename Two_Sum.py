@@ -10,12 +10,12 @@ Given an array of integers nums and an integer target, return indices of the
 
 class Solution(object):
     def twoSum(self, nums, target):
-    if len(nums) < 2:
-       return [];
-    for i in range(len(nums)):
-        for j in range(i, len(nums)):
-            if nums[i] + nums[j] == target:
-               return [i,j]
+        if len(nums) < 2:
+           return [];
+        for i in range(len(nums)):
+            for j in range(i, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i,j]
 
 
 '''
