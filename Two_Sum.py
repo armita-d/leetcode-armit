@@ -8,7 +8,7 @@ Given an array of integers nums and an integer target, return indices of the
 *Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 '''
 
-Class Solution(object):
+class Solution(object):
     def twoSum(self, nums, target):
     if len(nums) < 2:
        return [];
